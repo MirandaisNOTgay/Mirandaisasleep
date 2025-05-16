@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head> 
+    <title> miranda is asleep </title>
+    <link rel="stylesheet" href="style.css"/> 
+  </head>
+  <body>
+
+    <main> 
+
+      
+
+      <left>
+
+        <input class="button" id="home" value="Home" type="button"/>
+        <input class="button" id="blog" value="Blog" type="button"/>
+        <input class="button" id="about_me" value="About Me" type="button"/>
+
+        <div style="height: 70%;"></div>
+
+      </left>
+
+      <div style="min-width: 30px;"></div>
+
+      <div id="content">
+        
+        <div id="content">
+
+          <header>
+            
+            <h1>Blogs!</h1>
+            <h3>My blogs in order from newest to oldest</h3>
+         
+          </header>
+
+          
+        <div style="min-height: 30px;"></div>
+        
+        <div id="main-container">
+          
+          <div id="daily_blog_update"> <!--- This is where to put your old posts, Miranda!-->
+            <div id="blog_container">
+              
+               <div class="blog_post post06022025">
+               <h1> My Very Second Blog Post! - 2025-02-10 </h1>
+               <p> I think I want to talk about Gorillaz today! Music is a big part of who I am, and I really want to share it with people.
+                   <br>
+                   My first real deep dive into Gorillaz was when I got a bass. Nobody is a wonderful musician on the first day, and so I 
+                   did as most do and searched up easy songs to play. The Feel Good Inc. bassline really inspired me to take a look
+                   at other Gorillaz songs. Surprisingly, most have this catchy yet simplistic bassline that is missing from music these days.
+                   For example, if any bassists want reccomendations, "on melancholy hill", "o green world", and "the pink phantom" all have easy
+                   yet fun bass riffs. 
+
+                   My favorite Gorillaz video features a live of,  "o green world," and in that one, you can really feel the bass. Not to mention
+                   The bassist is in front, absolutely shredding. Watch her go! She really encapsulates that rough Gorillaz theme Demon Days goes for.
+                   
+                </p>
+               </p>
+              
+               <a href="https://www.youtube.com/watch?v=Kw0zx6rMsQA" target="blank">Gorillaz video!</a>
+               
+             </div>
+             <div class="blog_post post06022025">
+              <h1>My Very First Blog Post - 2025-02-06 </h1>
+              <p> 
+                Hello! It's currently 4:58 PM and I am trying to write with a cat on my elbow. What should I post? Maybe for my first post,
+                I can talk about something simple. This website, maybe? I'll probably have a separate page for it later on, but this is fine for now.
+                Speaking of my website - this website is special to me because it's my very first serious attempt! I would probably still be stuck
+                trying to figure out how to code buttons if it wasn't for my great friend Daniel. 
+                I really enjoy how it turned out. It's not fancy, but it's sentimental to me and something I'll definitely show off to my friends in class.
+              </p>
+              <br>
+              <div style="display: flex; flex-direction: row; justify-content: center;">
+                <img src="tobey_and_juno.jpeg" height="300px" width="500px" style="border-radius: 15px; box-shadow: 10px 5px 5px rgb(167, 72, 72);" />
+              </div>
+             </div>
+             
+                <h1> to be written </h1>
+                <p>
+                  :D
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        
+      </div>
+
+    </main>
+  </body>
+  <script>
+
+    let blog = document.getElementById("blog");
+
+    blog.addEventListener("mousedown", () => {
+      window.location.href = "./blog.html";
+    })
+
+    let home = document.getElementById("home")
+
+    home.addEventListener("mousedown", () => {
+      window.location.href = "./index.html";
+    })
+  
+    let about_me = document.getElementById("about_me");
+
+    about_me.addEventListener("mousedown", () => {
+    window.location.href = "./about_me.html";
+     })
+
+</script>
+</html>

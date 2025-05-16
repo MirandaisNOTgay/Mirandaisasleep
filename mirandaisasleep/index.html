@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head> 
+    <title> miranda is asleep </title>
+    <link rel="stylesheet" href="style.css"/> 
+  </head>
+  <body>
+
+    <main> 
+
+      
+
+      <left>
+
+        <input class="button" id="home" value="Home" type="button"/>
+        <input class="button" id="blog" value="Blog" type="button"/>
+        <input class="button" id="about_me" value="About Me" type="button"/>
+
+        <div style="height: 70%;"></div>
+
+      </left>
+
+      <div style="min-width: 30px;"></div>
+
+      <div id="content">
+
+        <header>
+          
+          <h1>Miranda's random project</h1>
+          <h3>kind of just a jumble of thoughts put into a text- don't expect consistency with me</h3>
+       
+        </header>
+
+        <div style="min-height: 30px;"></div>
+
+        <div id="main-container">
+          <div id="daily_blog_update">
+
+            <div class="blog_post">
+              <h1> IM GIVING UP!!</h1>
+              <p> bye stupid bitches </p>
+            </div>
+            
+            
+            
+          </div>
+        </div>
+
+        
+      </div>
+
+    </main>
+  </body>
+  <script>
+
+    let blog = document.getElementById("blog");
+
+    blog.addEventListener("mousedown", () => {
+      window.location.href = "./blog.html";
+    })
+
+    let home = document.getElementById("home")
+
+    home.addEventListener("mousedown", () => {
+      window.location.href = "./index.html";
+    })
+
+    let about_me = document.getElementById("about_me");
+
+    about_me.addEventListener("mousedown", () => {
+    window.location.href = "./about_me.html";
+   })
+
+</script>
+</html>

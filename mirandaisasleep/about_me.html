@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <title> miranda is asleep </title>
+        <link rel="stylesheet" href="style.css"/> 
+      </head>
+      <body>
+
+        <main> 
+    
+          
+    
+          <left>
+    
+            <input class="button" id="home" value="Home" type="button"/>
+            <input class="button" id="blog" value="Blog" type="button"/>
+            <input class="button" id="about_me" value="About Me" type="button"/>
+
+            <div style="height: 70%;"></div>
+    
+          </left>
+    
+          <div style="min-width: 30px;"></div>
+  
+      
+      <div id="content">
+
+        <div style="min-width: 30px;"></div>
+
+        <header>
+          
+          <h1>About me! Miranda~</h1>
+          
+        </header>
+
+        <div style="min-height: 30px;"></div>
+
+        <div id="main-container">
+        
+          <div id="daily_blog_update">
+            
+            
+            <h2> Hello! My name is Miranda, as you already know. </h2>
+            <br>
+            <p> I'm a Canadian girl, 16 years old.. Am I allowed to admit that on neocities? I'll have to check soon.
+              <br>
+              I live in the East Coast, where absolutely nobody knows. It's a maritime province, mostly surrounded by water. Our province even looks like a fish on the map! <br>
+              I currently have many hobbies, and I'm still in school. I enjoy both arts and stem, but since school mostly favors stem, I do one thing vastly more than the other. <br>
+              I'm not in any clubs currently. Our school is small, and the only reason I'm staying is to hopefully get my grubby hands on a scholarship. <br>
+              But: lets talk about something better, no?
+              <h3> HOBBIES! </h3>
+              <ul>
+                <li> drawing </li>
+                <li> writing </li>
+                <li> sleeping </li>
+                <li> binge-watching TV shows </li>
+                <li> gaming </li>
+                <li> harassing people online (like daniel, for example) </li>
+                <li> listening to music (mostly rock and metal) </li>
+                <li> mudding with the fellas </li>
+                <li> guitar + bass (although a little stumped, had to take a break for school) </li>
+                <li> painting my nails </li>
+              </ul>
+              <h3> INTERESTS/LIKES </h3>
+              <ul>
+                <li> marine biology </li>
+                <li> Thom Yorke </li>
+                <li> Damon Albarn </li>
+               <li> Harlan Ellison </li>
+               <li> sci-fi/dystopian novels </li>
+               <li> Luiz Inacio Lula da Silva </li>
+               <li> Biochemisty/biomedical enginner </li>
+              </ul>
+             
+            </p>
+            
+        </div>
+
+      </div>
+      </div>
+
+  
+        </main>
+        <script>
+
+          let blog = document.getElementById("blog");
+      
+          blog.addEventListener("mousedown", () => {
+            window.location.href = "./blog.html";
+          })
+      
+          let home = document.getElementById("home")
+      
+          home.addEventListener("mousedown", () => {
+            window.location.href = "./index.html";
+          })
+      
+        
+      
+          let about_me = document.getElementById("about_me");
+      
+          about_me.addEventListener("mousedown", () => {
+          window.location.href = "./about_me.html";
+           })
+      
+      </script>
+</html>

@@ -1,0 +1,18 @@
+<p></p>I'll probably rate things and talk about random shit. Like I've said. Mostly music, I think I'll use this website for rating music and stuff.</p>
+          <p>Or perhaps literature, mostly documenting my practice with Brazilian Portuguese. I think a Brazilian toddler could rival me in fluency. But that's why I'm practicing, no? Did you expect me to be a god?
+        
+          <a href=https://open.spotify.com/user/31fxzyfa5cvmnnkxarmfsofjfaku>my mediocre spotify :D</a></p>
+          <p> Will adding photos work? I may have to ask my knowledgable friend Daniel about this one. He has a really impressive website! Check it out!!
+          <a href=https://asgooffeeasme.neocities.org>his way better website</a></p>
+          <p> I should probably test out how to add images. Here's a Gorillaz photo (if it does work) <img src="gorillaz.png" height="300"
+          width="300">  
+          shut = open     up = down
+          open down =/ shut up 
+<!--
+            <div class="blog_post post99999999">
+              <h1>hey guys this is my blog post 02 5, 2025</h1>
+              <p> 
+                test test
+              </p>
+            </div>
+            --
